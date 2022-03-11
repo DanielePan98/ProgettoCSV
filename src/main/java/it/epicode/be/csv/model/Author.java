@@ -18,7 +18,7 @@ import lombok.Data;
 @Entity
 @AllArgsConstructor
 public class Author {
-//prova
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
